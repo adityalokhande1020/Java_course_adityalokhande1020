@@ -1,0 +1,26 @@
+public class Outputinjava{
+    public static void main(String[] args) {
+
+        // 1) print
+        System.out.print(" H ");
+        System.out.print(" I ");
+        //System.out.print()  --> prints the output in same line --> H I
+        System.out.println(" ---> Output in same line");
+        System.out.println(" ---------------------");
+
+
+        // 2) "\n"
+        System.out.print(" H \n");
+        System.out.print(" I \n");
+        //System.out.print("  \n")  --> prints the output in new line
+        System.out.println("Output in new line");
+        System.out.println(" ---------------------");
+
+
+        // 3) println
+        System.out.println(" H ");
+        System.out.println(" I ");
+        // System.out.println()  --> prints the output in new line
+        System.out.println("Output in new line ");
+    }
+}
